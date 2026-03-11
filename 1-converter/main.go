@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+func userInput() string {
+	var input string
+	fmt.Scan(&input)
+
+	return input
+}
+
+func calculateCurrency(value float64, sourceCurrency string, targetCurrency string) {
+
+}
+
 func main() {
 	const EUR = 0.8607
 	const RUB = 79.15
